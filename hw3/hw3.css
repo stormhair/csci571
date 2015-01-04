@@ -1,0 +1,57 @@
+.header {
+	background: url("image/header.png");
+	width: 680px;
+	height: 99px;
+}
+
+.bar {
+	background: url("image/bar.png");
+	width: 680px;
+	height: 57px;
+	
+}
+
+.bar .container div{
+	font-family: arial;
+	font-weight: bold;
+	font-size: 15px;
+	display: inline-block;
+	width: 100px;
+	padding: 15px;
+	text-align: center;
+}
+
+.bar a:link{
+	text-decoration: none;
+	color: black;
+}
+
+.bar a:visited{
+	color: black;
+}
+
+.content_page {
+	background-color: #869c80;
+	width: 680px;
+	height: 472px;
+}
+
+.header .container {
+	padding-top: 1px;
+	padding-left: 25px;
+}
+
+.content_page .container {
+	font-family: Arial;
+}
+
+.content_page h2{
+	font-family: Arial;
+	color: #2c4969;
+	margin: 20px;
+}
+
+.content_page p{
+	font-size: 12px;
+	margin: 20px;
+}
