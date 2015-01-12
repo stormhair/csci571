@@ -1,7 +1,17 @@
+body{
+	margin:0px;
+}
+
 .header {
 	background: url("image/header.png");
 	width: 680px;
 	height: 99px;
+}
+
+.container h1 {
+	padding-top: 20px;
+	padding-left: 30px;
+	margin:0px;
 }
 
 .bar {
@@ -16,7 +26,7 @@
 	font-size: 15px;
 	display: inline-block;
 	width: 90px;
-	padding: 15px;
+	padding: 18px;
 	text-align: center;
 }
 
@@ -33,12 +43,19 @@
 	background-color: #869c80;
 	font-family: Arial;
 	width: 680px;
-	height: 472px;
+	height: 497px;
 }
 
 .content_page h2{
+	/*fix the gap*/
 	margin: 0px;
-	padding: 0px;
+	padding-top: 15px;
+	padding-left: 20px;
 	color: #2c4969;
+}
+
+.content_page p{
+	padding-left:20px;
+	font-size: 12px;
 }
 
